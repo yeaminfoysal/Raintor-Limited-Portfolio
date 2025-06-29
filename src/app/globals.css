@@ -43,9 +43,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   background-image: url('/images/bg-hero.PNG');
-  /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: top;
+  max-width: 1440px;
+  margin: auto;
 }
 
 #about-bg {

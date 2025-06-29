@@ -1,7 +1,8 @@
 import ScheduleBtn from '@/components/ScheduleBtn'
 import SectionIcon from '@/components/sectionIcon'
-import Image from 'next/image'
 import React from 'react'
+import { BsFillSendFill } from 'react-icons/bs'
+import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 export default function Contact() {
     return (
@@ -30,25 +31,31 @@ export default function Contact() {
                     <div className='flex mt-[46px] gap-[14px] items-center'>
                         <button className='flex items-center gap-[12px] py-[10px] pr-[21px] border rounded-full text-[18px]'>
                             <div className='p-[12px] border border-white rounded-full'>
-                                <Image src="/images/send.png" width={13} height={13} alt="" />
+                                <BsFillSendFill />
                             </div>
                             Send
                         </button>
                         <p className='text-[18px]'>or</p>
                         <button className='flex items-center gap-[12px] py-[10px] pr-[21px] border rounded-full text-[18px]'>
                             <div className='p-[12px] border border-white rounded-full'>
-                                <Image src="/images/send.png" width={13} height={13} alt="" />
+                                <FaEnvelope />
                             </div>
                             Contact me
                         </button>
                     </div>
                     <div className='mt-[69px] flex items-center gap-[20px]'>
                         <p className='text-[18px] text-[#b8b8b8]'>@williamrey</p>
-                        <hr className='border-b-2 border-[#b8b8b8] w-[45px]'/>
+                        <hr className='border-b-2 border-[#b8b8b8] w-[45px]' />
                         <div className='items-center flex gap-[20px]'>
-                            <Image src="/images/facebook.png" width={27} height={27} alt="" />
-                            <Image src="/images/instagram.png" width={27} height={27} alt="" />
-                            <Image src="/images/x.png" width={27} height={27} alt="" />
+                            <button className='cursor-pointer'>
+                                <FaFacebook className={`text-[27px]`} />
+                            </button>
+                            <button className='cursor-pointer'>
+                                <FaInstagram className={`text-[27px]`} />
+                            </button>
+                            <button className='cursor-pointer'>
+                                <FaTwitter className={`text-[27px]`} />
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 export default function Hero() {
     return (
-        <div className="bg-cover bg-center" >
+        <div className="py-[140px] my-[-130px]" id='hero-bg' >
             <h1 className="ml-[50px] mt-[95px] w-[1128px] !leading-[126px] text-[70px] font-bold">
                 Trusted <span className='bg-black text-white px-[20px] rounded-xl'>Partner</span> for Your Website <span className='bg-black text-white px-[20px] rounded-xl'>Develop.</span>
             </h1>

@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className='min-h-screen pt-[200px] mt-[-70px] relative z-0 overflow-hidden' id='about-bg'>
+    <div className='pt-[200px] mt-[-70px] relative z-0 overflow-hidden' id='about-bg'>
       <div className='max-w-[1053px] mx-auto'>
         <div className='flex justify-end'>
           <SectionIcon color='black' title='About' />

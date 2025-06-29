@@ -15,10 +15,10 @@ export default function Navbar() {
     ];
 
     return (
-        <div className='font-grotesque max-w-[1340px] mx-auto py-[28px]'>
+        <div className=' max-w-[1340px] mx-auto py-[28px]'>
             <div className='flex justify-between items-center'>
-                <h3 className='uppercase text-[34px]'>devlop.me</h3>
-                <div className='flex items-center gap-[67px]'>
+                <h3 className='uppercase text-[34px] font-extrabold'>devlop.me</h3>
+                <div className='font-grotesque flex items-center gap-[67px]'>
                     <div className="hidden md:flex space-x-[36px]">
                         {navLinks.map(link => (
                             <Link

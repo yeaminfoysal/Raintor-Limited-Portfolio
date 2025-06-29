@@ -6,7 +6,7 @@ import SectionIcon from '@/components/sectionIcon';
 
 export default function skill() {
     return (
-        <div className='max-w-[1410px] relative !z-20 mx-auto px-[65px] py-[70px] rounded-[40px] bg-[#000000] text-white mt-[180px]'>
+        <div className='max-w-[1410px] relative !z-20 mx-auto px-[65px] py-[70px] rounded-[40px] bg-[#000000] text-white mt-[90px]'>
             <SectionIcon color='white' title='Why Choose me'/>
             <div className='mt-[40px] flex justify-between'>
                 <h1 className='text-[58px] w-[516px] leading-[86px]'>My Extensive List of Skills</h1>

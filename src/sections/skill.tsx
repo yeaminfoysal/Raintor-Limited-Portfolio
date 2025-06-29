@@ -2,16 +2,12 @@
 import Image from 'next/image'
 import React from 'react'
 import SkillCard from '@/components/skillCrad';
+import SectionIcon from '@/components/sectionIcon';
 
 export default function skill() {
     return (
-        <div className='max-[1410px] px-[65px] py-[70px] rounded-[40px] min-h-screen bg-[#000000] text-white'>
-            <div className='flex items-center py-[12px] pr-[21px]'>
-                <div className='p-[16px] border border-white rounded-full'>
-                    <Image width={16} height={16} className='' src="/images/arrow-buttom.png" alt='' />
-                </div>
-                <span className='border border-white rounded-full py-[10px] px-[20px]'>Why Choose me</span>
-            </div>
+        <div className='max-w-[1410px] relative !z-20 mx-auto px-[65px] py-[70px] rounded-[40px] bg-[#000000] text-white mt-[180px]'>
+            <SectionIcon color='white' title='Why Choose me'/>
             <div className='mt-[40px] flex justify-between'>
                 <h1 className='text-[58px] w-[516px] leading-[86px]'>My Extensive List of Skills</h1>
                 <div className='w-[510px]'>

@@ -53,3 +53,9 @@ body {
   background-repeat: no-repeat;
   background-position: top;
 }
+
+#contact-bg {
+  background-image: url('/images/contact-bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

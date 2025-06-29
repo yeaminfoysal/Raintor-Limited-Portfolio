@@ -1,5 +1,5 @@
 "use client"
-import Image from 'next/image'
+import ScheduleBtn from '@/components/ScheduleBtn'
 import React from 'react'
 
 export default function Hero() {
@@ -10,12 +10,7 @@ export default function Hero() {
             </h1>
             <div className='text-center w-[703px] mx-auto my-[50px]'>
                 <p className='mb-[42px] text-[18px]'>Building the worlds best marketing websites for over a decade. Your trusted partner for strategy, design, and dev.</p>
-                <button className='flex items-center gap-[12px] py-[12px] pr-[21px] border rounded-full'>
-                    <div className='p-[17px] border border-black rounded-full'>
-                        <Image src="/images/phone.png" width={20} height={20} alt="" />
-                    </div>
-                    Schedule a Call
-                </button>
+                <ScheduleBtn/>
             </div>
         </div>
 

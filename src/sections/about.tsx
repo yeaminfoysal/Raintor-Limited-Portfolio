@@ -9,7 +9,7 @@ export default function About() {
         <div className='flex justify-end'>
           <SectionIcon color='black' title='About' />
         </div>
-        <h1 className='mt-[35px] w-[1053px] !leading-[126px] text-[70px] font-bold !text-right'>
+        <h1 className='mt-[20px] w-[1053px] !leading-[126px] text-[70px] font-bold !text-right'>
           I’ve been
           <span className='bg-black text-white px-[20px] rounded-xl'>Developing</span> Websites since
           <span className='bg-black text-white px-[20px] rounded-xl'>2013</span>

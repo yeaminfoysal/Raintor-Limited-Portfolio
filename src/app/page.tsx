@@ -3,6 +3,7 @@
 import About from "@/sections/about";
 import Hero from "@/sections/hero";
 import Skill from "@/sections/skill"
+import WorkProcess from "@/sections/workProcess";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero/>
       <Skill/>
       <About/>
+      <WorkProcess/>
     </div>
   );
 }

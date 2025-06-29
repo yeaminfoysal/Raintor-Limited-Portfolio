@@ -19,8 +19,31 @@
   }
 }
 
+
+@font-face {
+  font-family: 'Sporting Grotesque';
+  src: url('/fonts/SportingGrotesque/SportingGrotesque-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sporting Grotesque';
+  src: url('/fonts/SportingGrotesque/SportingGrotesque-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-grotesque {
+  font-family: 'Sporting Grotesque', sans-serif !important;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url('/images/bg-hero.PNG');
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: top;
 }

@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div id='contact-bg' className='pb-[140px]'>
+        <div id='contact-bg' className='pb-[180px]'>
             <div className='flex gap-[60px] pt-[50px] pr-[50px] pl-[40px]'>
                 <div>
                     <SectionIcon title='Contact' color='black' />
@@ -18,7 +18,7 @@ export default function Contact() {
                         we get to know each other</p>
                     <ScheduleBtn />
                 </div>
-                <div className='bg-[#000000] w-[529px] text-white rounded-[30px] px-[35px] pt-[45px] pb-[0px]'>
+                <div className='bg-[#000000] w-[529px] text-white rounded-[30px] px-[35px] pt-[45px]'>
                     <h3 className='text-[18px]'>Enter your name</h3>
                     <hr className='border-b mt-[15px] border-[#C5FF41]' />
                     <div className=' mt-[30px]'>

@@ -12,7 +12,7 @@ const cardVariants = {
 
 export default function About() {
   return (
-    <div className='pt-[200px] mt-[-70px] relative z-0 overflow-hidden' id='about-bg'>
+    <div className='pt-[200px] mt-[-70px] relative z-0 overflow-hidden pb-[50px]' id='about-bg'>
       <div className='max-w-[1053px] mx-auto'>
         <div className='flex justify-end'>
           <SectionIcon color='black' title='About' />
@@ -27,15 +27,15 @@ export default function About() {
         </p>
       </div>
 
-      <div className='max-w-[1346px] mx-auto mt-[70px] flex gap-[33px] items-center'>
+      <div className='max-w-[1346px] mx-auto mt-[70px] flex items-center'>
         <div>
-          <h3 className='text-[26px] font-bold w-[244px]'>PREVIOUSLY WORKED ON</h3>
+          <h3 className='text-[26px] font-bold w-[244px] ml-[40px]'>PREVIOUSLY WORKED ON</h3>
         </div>
         <div className='flex flex-wrap gap-[40px] justify-end'>
           {[
             { bg: 'black', src: '/images/experiance1.png', rotate: '-rotate-12' },
             { bg: 'white', src: '/images/experiance2.png', rotate: '' },
-            { bg: 'white', src: '/images/experiance3.png', rotate: '' },
+            { bg: 'white', src: '/images/experiance3.png', rotate: 'rotate-' },
             { bg: 'white', src: '/images/experiance4.png', rotate: '' },
             { bg: 'white', src: '/images/experiance5.png', rotate: '-rotate-18' },
             { bg: 'white', src: '/images/experiance6.png', rotate: '' },

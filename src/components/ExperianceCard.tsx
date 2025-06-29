@@ -8,7 +8,7 @@ type ExperianceCardProps = {
 }
 export default function ExperianceCard({ bg, logoSrc, rotate }: ExperianceCardProps) {
     return (
-        <div className={`bg-${bg} py-[20px] px-[66px] rounded-full ${bg == 'white' ? "border-2 border-black" : ""}`}>
+        <div className={`bg-${bg} !h-[80px] py-[20px] px-[66px] rounded-full hover:rotate-6 hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer ${bg == 'white' ? "border-2 border-black" : ""}`}>
             <Image width={130} height={10} src={logoSrc} className={rotate} alt='' />
         </div>
     )

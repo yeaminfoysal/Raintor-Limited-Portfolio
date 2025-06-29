@@ -31,7 +31,7 @@ export default function Navbar() {
                             </Link>
                         ))}
                     </div>
-                    <button className='flex items-center gap-[12px] py-[10px] pr-[21px] border rounded-full text-[18px]'>
+                    <button className='flex items-center gap-[12px] py-[10px] pr-[21px] border rounded-full text-[18px] cursor-pointer'>
                         <div className='py-[12px] px-[8px] border border-black rounded-full'>
                             <Image src="/images/arrow-right-blk.png" width={22} height={13} alt="" />
                         </div>

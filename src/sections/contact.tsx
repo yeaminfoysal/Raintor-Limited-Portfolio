@@ -29,14 +29,14 @@ export default function Contact() {
                         <input type="text" placeholder='Your email address' className='py-[14px] w-full border-[#b8b8b8] border-b  text-[18px]' />
                     </div>
                     <div className='flex mt-[46px] gap-[14px] items-center'>
-                        <button className='flex items-center gap-[12px] py-[10px] pr-[21px] border rounded-full text-[18px]'>
+                        <button className='flex items-center gap-[12px] py-[10px] pr-[21px] border rounded-full text-[18px] cursor-pointer'>
                             <div className='p-[12px] border border-white rounded-full'>
                                 <BsFillSendFill />
                             </div>
                             Send
                         </button>
                         <p className='text-[18px]'>or</p>
-                        <button className='flex items-center gap-[12px] py-[10px] pr-[21px] border rounded-full text-[18px]'>
+                        <button className='flex items-center gap-[12px] py-[10px] pr-[21px] border rounded-full text-[18px] cursor-pointer'>
                             <div className='p-[12px] border border-white rounded-full'>
                                 <FaEnvelope />
                             </div>
